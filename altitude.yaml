@@ -1,0 +1,30 @@
+version: v2.0
+provider: cloudflare
+routes:
+    - pathPrefix: /
+      name: ssr
+      type: function
+      directory: .
+      build:
+          command: build
+          output:
+              directory: dist
+              filename: _worker.js
+              staticDirectory: ssr-assets
+      cache:
+        headers:
+          - "x-altitude-instance"
+    - pathPrefix: favicon.ico
+      name: favicon
+      type: static
+      directory: public
+      filename: favicon.ico
+    - pathPrefix: robots.txt
+      name: robots
+      type: static
+      directory: public
+      filename: robots.txt
+    - pathPrefix: /account
+      name: account-proxy
+      type: proxy
+      url: ${{ACCOUNT_PROXY_URL}}
