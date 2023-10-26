@@ -6,12 +6,12 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
-    "preview:astro": "wrangler pages dev ./dist --port 8787",
+    "preview": "/Users/halls/work/deno/target/release/deno run --allow-net --allow-read --allow-env ./dist/server/entry.mjs",
     "astro": "astro"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^7.1.1",
+    "@astrojs/deno": "^5.0.0",
     "@astrojs/mdx": "^1.1.0",
     "@astrojs/rss": "^3.0.0",
     "@astrojs/sitemap": "^3.0.0",
