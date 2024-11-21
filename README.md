@@ -23,6 +23,6 @@ filter:
 click on the GET to /blogs, then "Follow TCP Stream" - then you can notice that each line corresponds to its own packet
 
 
-https://excalidraw.com/#json=SyLFWCID1R1aHdUB39aeu,ClW3hq0zDn9TJND90FRmsw
+https://excalidraw.com/#json=Xfid5LGgTzuvaaLC8ohIn,n5LBEFlWs0mTtcExCsfSIQ
 
 
