@@ -15,8 +15,7 @@ type: `tcp.port == 8788` to filter TCP packets
 
 click on the GET to /blogs, then "Follow TCP Stream" - then you can notice that each line corresponds to its own packet
 
-diagram: https://excalidraw.com/#json=VfjrweZK0-stdrXv3h_43,TN4QM9cUJbcRkOYCm_8zhA
 
-
+https://excalidraw.com/#json=SyLFWCID1R1aHdUB39aeu,ClW3hq0zDn9TJND90FRmsw
 
 
