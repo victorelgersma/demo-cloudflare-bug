@@ -1,7 +1,4 @@
-Run astro app with workerd 
-
-Attempting to recreate the bug in the workerd/ cloudlfare runtime that shows far too many network packets
-
+Recreate the bug in the workerd/ cloudlfare runtime that shows far too many network packets, mentioned in https://github.com/cloudflare/workerd/issues/1235
 
 ```
 npm run build
@@ -20,8 +17,6 @@ click on the GET to /blogs, then "Follow TCP Stream" - then you can notice that 
 
 diagram: https://excalidraw.com/#json=VfjrweZK0-stdrXv3h_43,TN4QM9cUJbcRkOYCm_8zhA
 
-## Source
 
-[Original Issue](https://github.com/cloudflare/workerd/issues/1235)
 
 
