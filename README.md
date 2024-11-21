@@ -10,3 +10,7 @@ npm run build
 ```
 npm run preview
 ```
+
+then open wireshark, inspect at the lo0 (loopback interface), start recording and refresh the page running on port 8788. 
+
+type: `tcp.port == 8788` in the loopback interface
