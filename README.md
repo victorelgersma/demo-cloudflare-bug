@@ -10,7 +10,14 @@ npm run preview
 
 then open wireshark, inspect at the lo0 (loopback interface), start recording and refresh the page running on port 8788. 
 
-type: `tcp.port == 8788` to filter TCP packets
+to filter tcp packets:
+
+
+tcp.port == 8788
+
+filter:
+
+
 
 
 click on the GET to /blogs, then "Follow TCP Stream" - then you can notice that each line corresponds to its own packet
