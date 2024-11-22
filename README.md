@@ -1,4 +1,4 @@
-Recreate the bug in the workerd/ cloudlfare runtime that shows far too many network packets, mentioned in https://github.com/cloudflare/workerd/issues/1235
+Recreate the bug in the workerd/ cloudlfare runtime that shows 147 network packets being used to encode /blogs, described in https://github.com/cloudflare/workerd/issues/1235
 
 ```
 npm run build
